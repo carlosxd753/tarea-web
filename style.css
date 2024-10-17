@@ -1,0 +1,182 @@
+body {
+  background-image: url("imagenes/fondo.gif");
+  background-size: cover; /* O también puedes usar '100% 100%' para ajustarlo a las dimensiones exactas */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  background-image: url("imagenes/cabecera.jpg");
+  background-repeat: no-repeat;
+  height: 65px;
+  padding-top: 35px;
+}
+
+header h1 {
+  color: white;
+  display: inline;
+  padding-left: 40px;
+  text-decoration: underline;
+}
+
+form {
+  display: inline;
+  float: right;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+
+form input[type="text"] {
+  width: 210px;
+}
+
+.main .top-ul {
+  list-style: none;
+  background-color: #1c275e;
+  margin: 0px 5px 0px 5px;
+  padding: 0px;
+}
+
+.main .top-ul li {
+  display: inline-block;
+  color: white;
+  background-color: #2b3670;
+  padding: 5px 20px 5px 20px;
+  margin-top: 10px;
+}
+
+.li-1 {
+  margin-left: 10px;
+}
+
+#active-li {
+  color: orange;
+  background-color: white;
+}
+
+.main {
+  width: 770px;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: white;
+  height: 800px;
+  margin: 0px 5px;
+}
+
+footer {
+  background-image: url("imagenes/fondo_pie.jpg");
+  height: 50px;
+}
+
+.left {
+  width: 550px;
+  float: left;
+  margin-top: 20px;
+}
+
+.right {
+  width: 200px;
+  float: right;
+  background-color: #d1daf7;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-top-right-radius: 20px;
+}
+
+h3 {
+  background-color: #a4b9f0;
+  padding-left: 10px;
+  color: #1c275e;
+  height: 37px;
+  padding-top: 10px;
+}
+
+.left ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.left li {
+  display: inline-block;
+  color: #a5afcc;
+}
+
+article {
+  background-color: #f5f6ff;
+  margin-left: 20px;
+  border-top-left-radius: 20px;
+  height: 250px;
+}
+
+h2 {
+  background-color: #dfe5fa;
+  margin: 19px 0px 0px 0px;
+  padding: 10px;
+  display: inline-block;
+  width: 510px;
+}
+
+.right ul {
+  list-style-image: url("imagenes/icono_elemento.gif");
+  padding-left: 25px;
+}
+
+.right li {
+  font-size: 15px;
+  margin: 8px 0;
+}
+
+section div img {
+  float: left;
+  margin-left: 8px;
+}
+
+section div p {
+  font-size: 15px;
+  margin-bottom: 7px;
+  display: block;
+  margin-left: 5px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 60px;
+}
+
+section div {
+  height: 50px;
+}
+
+footer p {
+  margin: 0;
+  padding-left: 40px;
+  color: #cccfe3;
+}
+
+article li a {
+  color: #c4cce3;
+  margin-left: 5px;
+}
+
+article li p {
+  margin-left: 5px;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+article li {
+  margin-left: 10px;
+}
+
+article p {
+  margin-left: 10px;
+}
+
+article a {
+  margin-left: 10px;
+}
+
+.white {
+  background-color: #e1e8f6;
+}
